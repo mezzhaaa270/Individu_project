@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#000000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp">
+
+            <TextView
+                style="@style/TextHeader"
+                android:text="@string/header" />
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                tools:ignore="RtlHardcoded">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/notification"
+                    app:tint="@color/white" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="30dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/clock"
+                    app:tint="@color/white" />
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:layout_marginLeft="30dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/settings"
+                    app:tint="@color/white" />
+
+            </TableRow>
+
+        </FrameLayout>
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TableRow
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="#2B2B2B"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
+
+                    <TextView
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="20dp"
+                    android:background="#2B2B2B"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
+
+                    <TextView
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
+                </TableRow>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TableRow
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="#2B2B2B"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
+
+                    <TextView
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="20dp"
+                    android:background="#2B2B2B"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
+
+                    <TextView
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
+                </TableRow>
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <TableRow
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:background="#2B2B2B"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
+
+                    <TextView
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginEnd="20dp"
+                    android:background="#2B2B2B"
+                    android:orientation="horizontal"
+                    tools:ignore="RtlHardcoded">
+
+                    <ImageView
+                        style="@style/RowProfileImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/belac" />
+
+                    <TextView
+                        style="@style/RowProfileText"
+                        android:text="@string/card_profile_name" />
+                </TableRow>
+            </FrameLayout>
+        </TableLayout>
+
+
+        <TextView
+            style="@style/TextHeader"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/card_title" />
+
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TableRow>
+
+                    <ImageButton
+                        style="@style/CardImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/icon" />
+
+                    <ImageButton
+                        style="@style/CardImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/icon" />
+
+                    <ImageButton
+                        style="@style/CardImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/icon" />
+
+                    <ImageButton
+                        style="@style/CardImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/icon" />
+
+                    <ImageButton
+                        style="@style/CardImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/icon" />
+
+                    <ImageButton
+                        style="@style/CardImg"
+                        android:contentDescription="@string/todo"
+                        android:src="@drawable/icon" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
+
+                    <TextView
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
+
+                    <TextView
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
+
+                    <TextView
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
+
+                    <TextView
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
+
+                    <TextView
+                        style="@style/CardTextTop"
+                        android:text="@string/card_desc_top" />
+
+                </TableRow>
+
+                <TableRow>
+
+                    <TextView
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
+
+                    <TextView
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
+
+                    <TextView
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
+
+                    <TextView
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
+
+                    <TextView
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
+
+                    <TextView
+                        style="@style/CardTextBottom"
+                        android:text="@string/card_desc_bottom" />
+                </TableRow>
+
+            </TableLayout>
+        </HorizontalScrollView>
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="3dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_bg"
+            android:contentDescription="@string/todo"
+            app:tint="@color/white" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                style="@style/MyProfileImg"
+                android:src="@drawable/ppanime"
+                app:shapeAppearanceOverlay="@style/circleImageView"
+                app:strokeColor="#FFFFFF"
+                app:strokeWidth="2dp" />
+
+            <TextView
+                style="@style/MyProfileTitle"
+                android:text="@string/profile_title" />
+
+
+        </FrameLayout>
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/profile_desc"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|top"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="@string/profile_name"
+                android:textColor="#AEAEAE"
+                android:textSize="12sp" />
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:paddingBottom="5dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="left"
+                    android:layout_marginRight="5dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/telephone"
+                    app:tint="@color/white"
+                    tools:ignore="RtlHardcoded" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="10dp"
+                    android:text="@string/dial_phone"
+                    android:textColor="@color/white" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginStart="15dp"
+                    android:contentDescription="@string/todo"
+                    android:src="@drawable/instagramm"
+                    app:tint="@color/white" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:gravity="right"
+                    android:text="@string/profile_insta"
+                    android:textColor="@color/white"
+                    tools:ignore="RtlHardcoded" />
+
+            </TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:text="@string/profile_extra_desc"
+                android:textColor="#BAF7FF01" />
+        </TableLayout>
+
+    </LinearLayout>
+
+</ScrollView>

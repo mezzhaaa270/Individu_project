@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Spotify</string>
+    <string name="header">Good Afternoon</string>
+    <string name="todo">TODO</string>
+    <string name="card_profile_name">belac</string>
+    <string name="card_desc_top">Kordhel, Joji, SZA,</string>
+    <string name="card_title">Today\'s biggest hits</string>
+    <string name="card_desc_bottom">Arctic Monkeys, Payung Teduh</string>
+    <string name="profile_title">My Profile</string>
+    <string name="profile_desc">Hi, I\'m Rizla</string>
+    <string name="profile_name">Muhammad Muhammad Rizla Aqila</string>
+    <string name="dial_phone">+6281259674974</string>
+    <string name="profile_insta">anbyayusuf_</string>
+    <string name="profile_extra_desc">Hire me</string>
+
+</resources>
