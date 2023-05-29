@@ -1,6 +1,2 @@
 # Spotify
-
-![alt text](img/ss.png)
-![alt text](img/ss2.png)
-![](https://github.com/YNabyr/Spotify/blob/master/img/spotify_android.gif)
-Spotify in Ohio 💀
+![Screenshot (86)](https://github.com/mezzhaaa270/Individu_project/assets/101313122/1ed48237-98fc-4868-af4b-8f52ec7c21af)
